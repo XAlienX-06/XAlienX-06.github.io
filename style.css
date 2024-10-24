@@ -1,0 +1,142 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section with Space Background */
+.hero-section {
+    background-image: url('https://example.com/space-background.jpg'); /* Replace with your space background image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay to enhance visibility */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header: AI Logo */
+header {
+    margin-bottom: 20px;
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #fff); /* Glowing space effect */
+}
+
+/* Login Form Container */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Buttons */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff3344;
+}
+
+/* Specific Button Styles */
+.login-btn {
+    margin-top: 20px;
+}
+
+.download-btn {
+    background-color: #4CAF50; /* Green for download */
+}
+
+.download-btn:hover {
+    background-color: #45a049;
+}
+
+/* Forgot Password Link */
+.forgot-password {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.forgot-password a {
+    color: #ff4b5c;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    color: #ff3344;
+}
+
+/* Contact Helpline Button */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-btn {
+    width: auto;
+    background-color: #1e90ff; /* Blue for contact */
+    padding: 10px 30px;
+}
+
+.contact-btn:hover {
+    background-color: #1c7ed6;
+}
+
+/* Responsive Design for Smaller Devices */
+@media (max-width: 600px) {
+    .form-container {
+        width: 95%;
+    }
+
+    header .logo {
+        width: 120px;
+    }
+}
